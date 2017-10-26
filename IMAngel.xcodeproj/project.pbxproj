@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A658A83B81D06FEE28EFEC9 /* libPods-IMAngel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24396752C850E87F56369370 /* libPods-IMAngel.a */; };
+		AE3F53741E41ADA70046DA8B /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3F53731E41ADA70046DA8B /* Chat.storyboard */; };
+		AE3F53771E41ADD20046DA8B /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3F53751E41ADD20046DA8B /* Me.storyboard */; };
+		AEC191701E4054C3001445E4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1916F1E4054C3001445E4 /* ChatViewController.swift */; };
+		AEC191721E4085A2001445E4 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC191711E4085A2001445E4 /* ChatListViewController.swift */; };
+		AEC191751E40A61C001445E4 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC191731E40A61C001445E4 /* Contact.storyboard */; };
 		AEE85D931E3F676B001B8809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE85D921E3F676B001B8809 /* AppDelegate.swift */; };
 		AEE85D951E3F676B001B8809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE85D941E3F676B001B8809 /* ViewController.swift */; };
 		AEE85D981E3F676B001B8809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE85D961E3F676B001B8809 /* Main.storyboard */; };
 		AEE85D9A1E3F676B001B8809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE85D991E3F676B001B8809 /* Assets.xcassets */; };
 		AEE85D9D1E3F676B001B8809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE85D9B1E3F676B001B8809 /* LaunchScreen.storyboard */; };
+		AEE9D6821E3F6FD10001192F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AEE9D6811E3F6FD10001192F /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24396752C850E87F56369370 /* libPods-IMAngel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMAngel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B60D9810C65A1404AE0520A /* Pods-IMAngel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAngel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMAngel/Pods-IMAngel.debug.xcconfig"; sourceTree = "<group>"; };
+		AE09B2C31E3F732300A6D00A /* IMAngel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMAngel-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE3F53731E41ADA70046DA8B /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		AE3F53761E41ADD20046DA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
+		AEAC17B41E41D41100892973 /* SwiftPopMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftPopMenu.framework; path = "../../../Library/Developer/Xcode/DerivedData/IMAngel-gzetnninyryjqkeumccwnjyuklid/Build/Products/Debug-iphonesimulator/SwiftPopMenu/SwiftPopMenu.framework"; sourceTree = "<group>"; };
+		AEC1916F1E4054C3001445E4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AEC191711E4085A2001445E4 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		AEC191741E40A61C001445E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
 		AEE85D8F1E3F676B001B8809 /* IMAngel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMAngel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE85D921E3F676B001B8809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE85D941E3F676B001B8809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,8 @@
 		AEE85D991E3F676B001B8809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE85D9C1E3F676B001B8809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE85D9E1E3F676B001B8809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE9D6811E3F6FD10001192F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C26E06E853AE0D3CB1126328 /* Pods-IMAngel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAngel.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMAngel/Pods-IMAngel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A658A83B81D06FEE28EFEC9 /* libPods-IMAngel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +57,11 @@
 		AEE85D861E3F676B001B8809 = {
 			isa = PBXGroup;
 			children = (
+				AEE9D6811E3F6FD10001192F /* Podfile */,
 				AEE85D911E3F676B001B8809 /* IMAngel */,
 				AEE85D901E3F676B001B8809 /* Products */,
+				BFF074AB61B6D5F44606EF26 /* Pods */,
+				B295C53F8408A321B69EFA84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +78,36 @@
 			children = (
 				AEE85D921E3F676B001B8809 /* AppDelegate.swift */,
 				AEE85D941E3F676B001B8809 /* ViewController.swift */,
+				AEC1916F1E4054C3001445E4 /* ChatViewController.swift */,
 				AEE85D961E3F676B001B8809 /* Main.storyboard */,
+				AE3F53751E41ADD20046DA8B /* Me.storyboard */,
+				AE3F53731E41ADA70046DA8B /* Chat.storyboard */,
+				AEC191731E40A61C001445E4 /* Contact.storyboard */,
+				AEC191711E4085A2001445E4 /* ChatListViewController.swift */,
 				AEE85D991E3F676B001B8809 /* Assets.xcassets */,
 				AEE85D9B1E3F676B001B8809 /* LaunchScreen.storyboard */,
 				AEE85D9E1E3F676B001B8809 /* Info.plist */,
+				AE09B2C31E3F732300A6D00A /* IMAngel-Bridging-Header.h */,
 			);
 			path = IMAngel;
+			sourceTree = "<group>";
+		};
+		B295C53F8408A321B69EFA84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEAC17B41E41D41100892973 /* SwiftPopMenu.framework */,
+				24396752C850E87F56369370 /* libPods-IMAngel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFF074AB61B6D5F44606EF26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B60D9810C65A1404AE0520A /* Pods-IMAngel.debug.xcconfig */,
+				C26E06E853AE0D3CB1126328 /* Pods-IMAngel.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEE85DA11E3F676B001B8809 /* Build configuration list for PBXNativeTarget "IMAngel" */;
 			buildPhases = (
+				13EEA001AE6FC691C052F06B /* [CP] Check Pods Manifest.lock */,
 				AEE85D8B1E3F676B001B8809 /* Sources */,
 				AEE85D8C1E3F676B001B8809 /* Frameworks */,
 				AEE85D8D1E3F676B001B8809 /* Resources */,
+				AEE33E5EBF362A44C4877F65 /* [CP] Embed Pods Frameworks */,
+				2601E2763984E79EEDE873E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +146,7 @@
 					AEE85D8E1E3F676B001B8809 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 982HK3878L;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,13 +174,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3F53741E41ADA70046DA8B /* Chat.storyboard in Resources */,
 				AEE85D9D1E3F676B001B8809 /* LaunchScreen.storyboard in Resources */,
 				AEE85D9A1E3F676B001B8809 /* Assets.xcassets in Resources */,
+				AEE9D6821E3F6FD10001192F /* Podfile in Resources */,
 				AEE85D981E3F676B001B8809 /* Main.storyboard in Resources */,
+				AE3F53771E41ADD20046DA8B /* Me.storyboard in Resources */,
+				AEC191751E40A61C001445E4 /* Contact.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EEA001AE6FC691C052F06B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2601E2763984E79EEDE873E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAngel/Pods-IMAngel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE33E5EBF362A44C4877F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAngel/Pods-IMAngel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEE85D8B1E3F676B001B8809 /* Sources */ = {
@@ -138,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE85D951E3F676B001B8809 /* ViewController.swift in Sources */,
+				AEC191701E4054C3001445E4 /* ChatViewController.swift in Sources */,
+				AEC191721E4085A2001445E4 /* ChatListViewController.swift in Sources */,
 				AEE85D931E3F676B001B8809 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +249,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AE3F53751E41ADD20046DA8B /* Me.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3F53761E41ADD20046DA8B /* Base */,
+			);
+			name = Me.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC191731E40A61C001445E4 /* Contact.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC191741E40A61C001445E4 /* Base */,
+			);
+			name = Contact.storyboard;
+			sourceTree = "<group>";
+		};
 		AEE85D961E3F676B001B8809 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,26 +379,35 @@
 		};
 		AEE85DA21E3F676B001B8809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B60D9810C65A1404AE0520A /* Pods-IMAngel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 982HK3878L;
 				INFOPLIST_FILE = IMAngel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingcyk.IMAngel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMAngel/IMAngel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		AEE85DA31E3F676B001B8809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26E06E853AE0D3CB1126328 /* Pods-IMAngel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 982HK3878L;
 				INFOPLIST_FILE = IMAngel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingcyk.IMAngel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMAngel/IMAngel-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +431,7 @@
 				AEE85DA31E3F676B001B8809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

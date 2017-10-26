@@ -9,13 +9,33 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, RCIMUserInfoDataSource {
 
     var window: UIWindow?
 
+    func getUserInfo(withUserId userId: String!, completion: ((RCUserInfo?) -> Void)!) {
+        let userInfo = RCUserInfo()
+        userInfo.userId = userId
+        return completion(userInfo)
+    }
+    
+    func connectServevr(completion: @escaping () -> Void) {
+        RCIM.shared().initWithAppKey("uwd1c0sxuwlc1")
+        RCIM.shared().connect(withToken: "CS6ktdOrbxuMudDOYrYuyc3U+p50r1B+CDg9N4dLXBAPWjyVU65lo/jOeksLsELFHFLjouMCXTWMcFHZPkvFu2k+73fmernQ", success: { (_) in
+            print("[Connect] Success!")
+            let currentUser = RCUserInfo(userId: "kingcyk", name: "kingcyk", portrait: "")
+            RCIMClient.shared().currentUserInfo = currentUser
+            DispatchQueue.main.async(execute: {completion()})
+        }, error: { (code: RCConnectErrorCode) in
+            print("[Connect] Failed! \(code)")
+        }) {
+            print("[Connect] Wrong token!")
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        RCIM.shared().userInfoDataSource = self
         return true
     }
 
